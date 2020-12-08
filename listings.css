@@ -204,4 +204,23 @@
   select{
     -webkit-appearance: none;
     appearance: none;
+}.myModal3 {
+/* bug fix - no overlay */    
+display: none;}
+
+.watermark {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+
+.content {
+  position: absolute; /* Position the background text */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.carousel-control-next {
+  right: 5px;
 }
