@@ -1,4 +1,4 @@
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,6 +59,15 @@
      .navbar-brand p{
     font-size: 12px;  
   }
+  .price{
+    margin: 5px !important;
+    margin-bottom: 10px !important;
+    width: 18.5rem !important;
+    margin-left: 12px !important;
+  }
+  .owner{
+    margin-top: 10px !important;
+  }
   
   }
   @media (max-width: 386px)and (min-width: 381px)  {
@@ -73,8 +82,79 @@
     }
   }
   /*all media queries end*/
-  
-  /*---------------------------footer start---------------------------------------------*/
+
+
+select{
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #f1f3f6;
+}
+.myModal3 {
+/* bug fix - no overlay */    
+display: none;
+}
+
+.watermark {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+
+.content {
+  position: absolute; /* Position the background text */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.carousel-control-next {
+  right: 10px;
+}
+.images img{
+  height: 300px;
+  width: 100%;
+  /*width: 100% !important;*/
+
+}
+
+.accordion {
+  background-color:#f1f1f1 ;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: thin;
+  text-align: left;
+  outline: thin;
+  font-size: 15px;
+  transition: 0.7s;
+}
+
+/*.active, .accordion:hover {
+  background-color:#2ecab6 ; 
+}*/
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #2ECAB6;
+  overflow: hidden;
+  padding-top: 10px;
+  color: white;
+}
+
+select{
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+select::-ms-expand{
+  display: none;
+}
+
+
+/*---------------------------footer start---------------------------------------------*/
   
   footer{
     color: #fff;
@@ -113,7 +193,8 @@
     display: none;
   }
   /*---------------------------footer end---------------------------------------------*/
-  /*---------------------------mob view part start---------------------------------------------*/
+
+    /*---------------------------mob view part start---------------------------------------------*/
   #myNav {
     height: 100%;
     width: 0;
@@ -141,7 +222,7 @@
   }
   }
 
-.bot-card:hover{
+/*.bot-card:hover{
   cursor: default;
  transition: transform 0.4s ease;
 }
@@ -150,15 +231,15 @@
 }
 .bot-card h6:hover{
   background-color: #e0f0ed;
-}
-@media (max-width:760px){
+}*/
+/*@media (max-width:760px){
   .bot-card:hover{
     transform: translate(0);
   }
   .bot-card h6:hover{
     background-color: #fff;
   }
-}
+}*/
 
 .fea{
   display: grid;
@@ -199,53 +280,3 @@
    }
 }
   /*---------------------------mob view part end---------------------------------------------*/
-
-  --------------*/
-  select{
-    -webkit-appearance: none;
-    appearance: none;
-}.myModal3 {
-/* bug fix - no overlay */    
-display: none;}
-
-.watermark {
-  position: relative;
-  max-width: 800px; /* Maximum width */
-  margin: 0 auto; /* Center it */
-}
-
-
-.content {
-  position: absolute; /* Position the background text */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-}
-.carousel-control-next {
-  right: 5px;
-}
-
-.accordion {
-  background-color:#f1f1f1 ;
-  color: #444;
-  cursor: pointer;
-  padding: 20px;
-  width: 100%;
-  border: thin;
-  text-align: left;
-  outline: thin;
-  font-size: 15px;
-  transition: 0.7s;
-}
-
-.active, .accordion:hover {
-  background-color:#2ecab6 ; 
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: #f2f2f1;
-  overflow: hidden;
-}
-
