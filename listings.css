@@ -44,7 +44,9 @@ cursor: pointer;
   font-size: 20px;
   margin-right: 5px;
 }
-
+.other{
+color: black;
+}
 
 /*-----------------------navbar end------------------------------------------->*/
 /*all media queries start*/
