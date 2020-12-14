@@ -1,22 +1,7 @@
-$('.loop').owlCarousel({
-    center: true,
-    items:2,
-    loop:true,
-    margin:10,
-    responsive:{
-        600:{
-            items:4
-        }
-    }
+$('#btnhearta').click(function() {
+    $('#hearta').toggleClass("heartactive");
 });
-$('.nonloop').owlCarousel({
-    center: true,
-    items:2,
-    loop:false,
-    margin:10,
-    responsive:{
-        600:{
-            items:4
-        }
-    }
+
+$('#btnhearta1').click(function() {
+    $('#hearta1').toggleClass("heartactive");
 });
