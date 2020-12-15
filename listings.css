@@ -176,8 +176,6 @@ background-color:#2ecab6 ;
     color: white;
 }
 
-s
-
 select {
     /* for Firefox */
     -moz-appearance: none;
@@ -319,6 +317,7 @@ footer a {
 .mobview {
     display: none;
 }
+
 
 
 /*---------------------------footer end---------------------------------------------*/
@@ -502,16 +501,15 @@ background-color: #e0f0ed;
         /* comments style end */
 
         /* footer link */
-        .links .card-body .container .grid-hotel{
+        .links .card-body .container-fluid .grid-hotel{
             display: grid;
             grid-gap: 5px;
             text-align: center;
             grid-template-columns: repeat(6,0.166fr);
         }
         @media (max-width:600px){
-            .links .card-body .container .grid-hotel{
+            .links .card-body .container-fluid .grid-hotel{
                 display: grid;
-              
                 text-align: center;
                 grid-gap: 5px;
                 font-size: medium;
@@ -520,7 +518,7 @@ background-color: #e0f0ed;
         }
 
         .shadoww{
-            box-shadow: 2px 2px 2px 2px #000000;
+            box-shadow: 2px 2px 2px 2px gray ;
             border-radius: 5px;
            
         }
